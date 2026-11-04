@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "villagerpack",
+  "version": "${version}",
+  "name": "Villager Pack",
+  "description": "A villager overhaul modpack combining Flashback, Mercantile, Simple Villager Follow, Chatting Villagers, Villager Phrases, Funny Villagers, ShneinePack and Grox's Villagers into one cohesive experience.",
+  "authors": [
+    "EnderDevelopment"
+  ],
+  "contact": {
+    "homepage": "https://example.com/",
+    "sources": "https://example.com/"
+  },
+  "license": "MIT",
+  "icon": "assets/villagerpack/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderevelopment.villagerpack.VillagerPackMod"
+    ],
+    "client": [
+      "com.enderevelopment.villagerpack.client.VillagerPackClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
